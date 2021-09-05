@@ -1,0 +1,52 @@
+/* header section start */
+header{
+    background-color: #DDEBF6;
+}
+header img{
+    width: 53px;
+}
+header menu{}
+header menu ul{}
+header menu ul li{
+    display: inline-block;
+    margin-left: -5px;
+}
+header menu ul li:first-child a{
+    color: #000;
+}
+header menu ul li a {
+	text-decoration: none;
+	color: #555;
+	display: inline-block;
+	padding: 13px 20px;
+}
+header menu ul li a:hover{}
+/* header section end */
+.height{
+    height: 800px;
+}
+.h-width{
+    font-size: 25px;
+    font-weight: 600;
+}
+.p-width{
+    font-size: 20px;
+    font-weight: 500;
+}
+.alert-color{
+    background: #D4EDDA;
+}
+.under:hover{
+    text-decoration: underline;
+}
+.accordion-button::after{
+    display: none;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+	background-color: #fff !important;
+}
+.scrollspy-example{
+    height: 250px;
+    position: relative;
+    overflow: auto;
+}
